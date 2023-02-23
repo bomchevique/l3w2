@@ -1,0 +1,34 @@
+* {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 12pt;
+}
+
+body {
+    background: #15202b;
+    color: #fff;
+    margin: 0 auto;
+    width: 480px;
+}
+
+div.logo {
+    color: #1DA1F2;
+    font-size: 42pt;
+    font-weight: bold;
+    padding: 32px 0;
+    text-align: center;
+}
+
+div.post {
+    background: #192734;
+    margin-bottom: 16px;
+    padding: 32px;
+    text-align: center;
+}
+
+div.post-name {
+    font-size: 20pt;
+}
+
+div.post-content {
+    margin-bottom: 16px;
+}
