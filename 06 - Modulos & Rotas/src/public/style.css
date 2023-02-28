@@ -1,0 +1,37 @@
+* {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eee;
+    margin: 0 auto;
+    width: 480px;
+}
+
+div.cabecalho {  
+    font-size: 32pt;
+    font-weight: bold;
+    margin: 32px 0;
+    text-align: center;
+}
+
+div.pagina {
+    letter-spacing: 1px;
+    margin: 32px 0;
+    text-align: justify;
+}
+
+div.rodape {
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin: 16px 0;
+    padding: 8px;
+}
+
+    div.rodape a {
+        color: #222;
+        text-decoration: none;
+    }
