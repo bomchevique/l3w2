@@ -1,0 +1,18 @@
+* {
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    width: 100vw;
+}
+
+div {
+    background: #eee;
+    padding: 32px;
+    max-width: 480px;
+}
