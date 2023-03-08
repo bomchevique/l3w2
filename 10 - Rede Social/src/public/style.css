@@ -1,0 +1,77 @@
+* {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 12pt;
+}
+
+body {
+    background: black;
+    margin: 0 auto;
+    width: 480px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1 {
+    background: linear-gradient(45deg, #d63838, #e98d58);
+    font-size: 32pt;
+    margin: 32px 0;
+    text-align: center;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div.postagem {
+    background: #222;
+    color: #fff;
+    padding: 16px;
+    margin: 32px 0;
+    text-align: center;
+}
+
+    div.postagem span {
+        color: #fff;
+        display: block;
+    }
+
+    div.postagem img {
+        width: 100%;
+    }
+
+    div.postagem button {
+        background: #000;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        margin-top: 16px;
+        padding: 8px 16px;
+    }
+
+div.formulario {
+    background: #222;
+    color: #fff;
+    padding: 16px;
+    margin: 32px 0;
+    text-align: center;
+}
+
+    div.formulario form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    input {
+        background: #000;
+        border: none;
+        color: #fff;
+        outline: none;
+        padding: 4px 8px;
+    }
+
+    input[type="submit"] {
+        cursor: pointer;
+    }

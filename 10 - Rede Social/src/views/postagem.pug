@@ -1,0 +1,19 @@
+doctype html
+html
+    head
+        meta(http-equiv="Content-Type", content="text/html;charset=UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Social Geeks
+        link(rel="stylesheet", href="/style.css")
+        link(rel="shortcut icon", href="/favicon.png", type="image/png")
+    body 
+        if postagem
+            h1 Social Geeks
+            div(class="postagem")
+                img(src=postagem.imagem, alt="foto da postagem")
+                span #{postagem.autor}
+                span #{postagem.conteudo}
+                form(action="/palmas/" + postagem["_id"], method="POST") 
+                    button(type="submit") #{postagem.palmas} Palmas
+        else 
+            h1 Nenhuma postagem encontrada no banco de dados!
